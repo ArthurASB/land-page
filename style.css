@@ -58,6 +58,25 @@ a {
 .citation {
     height: 450px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.inspiring-quote {
+    width: 600px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.author {
+    font-size: 25px;
+    width: 600px;
+    font-weight: 600;
+    text-align: end;
 }
 
 .bottom-content {
