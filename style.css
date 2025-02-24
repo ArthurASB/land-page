@@ -42,6 +42,10 @@ a {
     color: white;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .list-links {
     align-self: center;
 }
@@ -52,7 +56,8 @@ a {
     color: white;
     display: flex;
     text-align: left;
-    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .hero-text {
@@ -70,9 +75,17 @@ a {
 }
 
 .hero-img {
-    width: 500px;
+    max-width: 450px;
     background-color: grey;
+    margin-bottom: 10px;
 }
+
+.hero-section img {
+    width: 450px;
+    height: 300px;
+    border-radius: 10%;
+}
+
 
 .hero-text button {
     background-color: #3882F6;
@@ -88,7 +101,28 @@ a {
 .info {
     height: 450px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
+
+.info-title {
+    font-size: 27px;
+    font-weight: bold;
+
+}
+
+.card-collection{
+    display: flex;
+    width: 900px;
+    border: black 2px solid;
+}
+
+.card{
+
+}
+
 
 .citation {
     height: 450px;
@@ -102,7 +136,7 @@ a {
 
 .inspiring-quote {
     width: 600px;
-    font-size: 30px;
+    font-size: 28px;
     font-family:'Times New Roman', Times, serif;
     text-align: justify;
 }
