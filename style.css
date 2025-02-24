@@ -116,11 +116,17 @@ a:hover {
 .card-collection{
     display: flex;
     width: 900px;
-    border: black 2px solid;
+    justify-content: space-between;
 }
 
 .card{
+    width: 250px;
+    text-align: center;
+    opacity: 0.5;
+}
 
+.card:hover {
+    opacity: 1;
 }
 
 
